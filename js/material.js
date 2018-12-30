@@ -32,6 +32,7 @@ function ShaderProgram (gl, vertSrc, fragSrc) {
   this.view = gl.getUniformLocation(program, 'view')
   this.projection = gl.getUniformLocation(program, 'projection')
   this.ambientLight = gl.getUniformLocation(program, 'ambientLight')
+  this.shine = gl.getUniformLocation(program, 'shine')
   this.lightDirection = gl.getUniformLocation(program, 'lightDirection')
   this.diffuse = gl.getUniformLocation(program, 'diffuse')
   this.vert = vert

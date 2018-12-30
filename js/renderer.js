@@ -6,7 +6,7 @@ function Renderer (canvas) {
 }
 
 Renderer.prototype.setClearColor = function (red, green, blue) {
-  this.gl.clearColor(red / 255, green / 255, blue / 255, 0.6)
+  this.gl.clearColor(red / 255, green / 255, blue / 255, 1)
 }
 
 Renderer.prototype.getContext = function () {
